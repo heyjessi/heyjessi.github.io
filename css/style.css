@@ -25,10 +25,11 @@ body {
     color: #FE0200
 }
 
-#nav {
+.nav {
     /* margin-left:20px;
     margin-top:40px; */
     text-align: center;
+    display: flex;
 }
 
 #content {
@@ -36,7 +37,7 @@ body {
     width: 75%;
 }
 
-h1, h4, #nav, #main-2 {
+h1, h4, .nav, #main-2 {
     font-family: "Neutra"
 }
 
