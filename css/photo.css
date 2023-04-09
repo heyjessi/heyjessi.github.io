@@ -71,12 +71,13 @@ h6 {
 }
 
 h3 {
-  font-size: 6vw;
+  font-size: 42px;
   font-family: "Recoleta";
-  margin-block-end: 0.5vw;
+  margin-block-end: 2vh;
+  text-align: center;
 }
 
-#para-content {
+.para-content {
   font-family: "Neutra";
   font-size: 25px;
 }
