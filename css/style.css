@@ -28,7 +28,7 @@ body {
 
 .intro-pic {
   margin-top: 5%;
-  width: 80%;
+  width: 100%;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -71,6 +71,10 @@ h3 {
   margin-left: auto;
   margin-right: auto;
   box-shadow: 5px 5px;
+}
+
+.photo-projects {
+  pointer-events: none;
 }
 
 .project:hover {
