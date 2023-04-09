@@ -51,10 +51,6 @@ body {
   font-size: 100px;
 }
 
-#main-2 {
-  font-size: 40px;
-}
-
 .nav {
   /* margin-left:20px;
     margin-top:40px; */
@@ -75,8 +71,9 @@ h6 {
 }
 
 h3 {
-  font-size: 40px;
+  font-size: 6vw;
   font-family: "Recoleta";
+  margin-block-end: 0.5vw;
 }
 
 #para-content {
@@ -114,7 +111,7 @@ h3 {
 }
 
 /* Responsive layout - makes a two column-layout instead of four columns */
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 768px) {
   .column {
     -ms-flex: 50%;
     flex: 50%;
@@ -123,7 +120,7 @@ h3 {
 }
 
 /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 480px) {
   .column {
     -ms-flex: 100%;
     flex: 100%;
