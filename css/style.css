@@ -62,7 +62,6 @@ h3 {
     font-family: "Recoleta";
     margin-block-end: 0.5vw;
     margin-block-start: 0.25vw;
-    text-align: center;
 }
 
 .para-content {
@@ -90,7 +89,7 @@ h3 {
 }
 
 .projfont {
-  font-size: 16px;
+  font-size: 20px;
   padding: 15px;
 }
 
@@ -184,4 +183,11 @@ h3 {
       display:block;
       margin:0.4em auto;
      }
+    }
+
+    @media screen and (max-width: 768px) {
+    
+      h3 {
+        text-align: center;
+      }
     }

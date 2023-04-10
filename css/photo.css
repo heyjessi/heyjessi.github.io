@@ -74,7 +74,6 @@ h3 {
   font-size: 42px;
   font-family: "Recoleta";
   margin-block-end: 2vh;
-  text-align: center;
 }
 
 .para-content {
@@ -117,6 +116,10 @@ h3 {
     -ms-flex: 50%;
     flex: 50%;
     /* max-width: 50%; */
+  }
+
+  h3 {
+    text-align: center;
   }
 }
 
