@@ -42,9 +42,9 @@
 }
 
 body {
-  background-color: #f3bbbc;
+  background-color: #fff;
   font-family: "Neutra";
-  color: #3a0000;
+  color: #fe0200;
 }
 
 #main {
@@ -138,19 +138,19 @@ a {
 }
 
 a:link {
-  color: #cb0100;
+  color: #0053e2;
 }
 /* visited link */
 a:visited {
-  color: #cb0100;
+  color: #0053e2;
 }
 
 /* mouse over link */
 a:hover {
-  color: #650000;
+  color: #fff23e;
 }
 
 /* selected link */
 a:active {
-  color: #cf694c;
+  color: #fff23e;
 }

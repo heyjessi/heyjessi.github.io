@@ -8,10 +8,19 @@
 @font-face { font-family: Recoleta; src: url('../font/Recoleta-RegularDEMO.otf');}
 @font-face { font-family: Serif-Gothic; src: url('../font/SerifGothicStd.otf');}
 @font-face { font-family: Souvenier; src: url('../font/souvenir.ttf');}
+@font-face { font-family: Array; src: url('../font/Array-Regular.otf'); } 
+@font-face { font-family: Array; font-weight: bold; src: url('../font/Array-Bold.otf');}
+@font-face { font-family: Kihim; src: url('../font/Kihim-Regular.otf');}
+@font-face { font-family: Hoover; src: url('../font/Hoover-Regular.otf'); } 
+@font-face { font-family: Hoover; font-weight: bold; src: url('../font/Hoover-Bold.otf');}
+@font-face { font-family: Hoover; font-weight: italic; src: url('../font/Hoover-Light.otf');}
+@font-face { font-family: Segment; font-weight: bold; src: url('../font/Segment-Regular.otf');}
+@font-face { font-family: Striper; src: url('../font/Striper-Regular.otf');}
+
 
 body {
-    background-color:#F3BBBC;
-    color: #3a0000;
+    background-color:#FFFFFF;
+    color: #FE0200;
 }
 
 #main {
@@ -27,7 +36,6 @@ body {
 }
 
 .intro-pic {
-  margin-top: 5%;
   max-height: 100vh;
   max-width: 100%;
   display: block;
@@ -62,6 +70,7 @@ h3 {
     font-family: "Recoleta";
     margin-block-end: 0.5vw;
     margin-block-start: 0.25vw;
+    color: #FE0200;
 }
 
 .para-content {
@@ -75,7 +84,7 @@ h3 {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  box-shadow: 5px 5px;
+  /* box-shadow: 5px 5px; */
 }
 
 .photo-projects {
@@ -119,17 +128,17 @@ h3 {
   }
 
   a:link {
-    color:#cb0100;
+    color:#0053E2;
   }
   
   /* visited link */
   a:visited {
-    color:#cb0100;
+    color:#0053E2;
   }
   
   /* mouse over link */
   a:hover {
-    color:#650000
+    color:#FFF23E
   }
   
 
@@ -170,7 +179,7 @@ h3 {
     font-family:'Neutra',sans-serif;
     font-weight:100;
     color:#FFFFFF;
-    background-color:#650000;
+    background-color:#FFF23E;
     box-shadow:inset 0 -0.6em 0 -0.35em rgba(0,0,0,0.17);
     text-align:center;
     position:relative;
@@ -199,4 +208,96 @@ h3 {
         overflow-y: auto;
         height: 75vh;
       }
+
+      .intro-pic {
+        height:75vh
+      }
     }
+
+
+  .social {
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 3.5vw
+  }
+/* width
+::-webkit-scrollbar {
+  width: 10px;
+} */
+
+.array {
+  font-family: "Array";
+}
+
+.kihim {
+  font-family: "Kihim";
+}
+
+.hoover {
+  font-family: "Hoover";
+}
+
+.striper {
+  font-family: "Striper";
+}
+
+.segment {
+  font-family: "Segment";
+}
+
+/* scroller */
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #FFF23E;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #0053E2;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #FE0200;
+}
+
+
+@-moz-keyframes spin {
+    from { -moz-transform: rotate(0deg); }
+    to { -moz-transform: rotate(360deg); }
+}
+@-webkit-keyframes spin {
+    from { -webkit-transform: rotate(0deg); }
+    to { -webkit-transform: rotate(360deg); }
+}
+@keyframes spin {
+    from {transform:rotate(0deg);}
+    to {transform:rotate(360deg);}
+}
+
+.random-pos {
+  position: absolute;
+  height: 15%;
+  margin-top: 300px;
+  margin-left: 300px;
+  -webkit-animation-name: spin;
+  -webkit-animation-duration: 4000ms;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+  -moz-animation-name: spin;
+  -moz-animation-duration: 4000ms;
+  -moz-animation-iteration-count: infinite;
+  -moz-animation-timing-function: linear;
+  -ms-animation-name: spin;
+  -ms-animation-duration: 4000ms;
+  -ms-animation-iteration-count: infinite;
+  -ms-animation-timing-function: linear;
+  -o-transition: rotate(3600deg);
+}
